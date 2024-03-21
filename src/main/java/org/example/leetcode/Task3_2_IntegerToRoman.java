@@ -17,7 +17,7 @@ public class Task3_2_IntegerToRoman {
 
     public static void main(String[] args) {
         Task3_2_IntegerToRoman task31IntegerToRoman = new Task3_2_IntegerToRoman();
-        System.out.println(task31IntegerToRoman.integerToRoman(122));
+        System.out.println(task31IntegerToRoman.integerToRoman(3999));
     }
 
     public String integerToRoman(Integer inputNumber) {

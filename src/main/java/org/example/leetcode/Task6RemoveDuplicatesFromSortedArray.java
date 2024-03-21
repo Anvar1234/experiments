@@ -45,7 +45,7 @@ public class Task6RemoveDuplicatesFromSortedArray {
         int[] expectedNums = new int[nums.length];
         int index = 0;
         expectedNums[0] = nums[0];
-        int countOfExclusive = 1; //первый элемент и так уникальный, его сразу считаем, а в цикле ниже i начинаем уже с 1-го элемента.
+        int countOfExclusive = 1; //нулевой элемент и так уникальный, его сразу считаем, а в цикле ниже i начинаем уже с 1-го элемента.
 
         for (int i = 1; i < nums.length; i++) {
             if(expectedNums[index] != nums[i]){

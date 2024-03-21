@@ -16,6 +16,7 @@ public class Task1TwoSum {
      * Выход: [1,2]
      *
      * Пример 3:
+     *
      * Вход: nums = [3,3], цель = 6
      * Выход: [0,1]
      * @param args

@@ -19,14 +19,11 @@ package org.example.leetcode;
 public class Task8FindTheIndexOfTheFirstOccurrence {
     public static void main(String[] args) {
         String haystack = "sadtfgsad";
-        String needle = "af";
+        String needle = "fg";
         System.out.println(strStr(haystack, needle));
     }
 
     public static int strStr(String haystack, String needle) {
-        if (true) {
-            int index = haystack.indexOf(needle);
-            return index;
-        } else return -1;
+        return haystack.indexOf(needle);
     }
 }
