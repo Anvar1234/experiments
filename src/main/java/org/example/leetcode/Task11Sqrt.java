@@ -24,7 +24,7 @@ package org.example.leetcode;
  */
 public class Task11Sqrt {
     public static void main(String[] args) {
-        System.out.println(mySqrt(3)); //1551, 2_147_395_600, 3,
+        System.out.println(mySqrt(2_147_395_600)); //1551, 2_147_395_600, 3,
     }
 
     /**
