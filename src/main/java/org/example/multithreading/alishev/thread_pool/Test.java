@@ -17,7 +17,7 @@ public class Test {
         System.out.println("Все задачи submited");
 
         try {
-            if (executorService.awaitTermination(1, TimeUnit.SECONDS)) {
+            if (executorService.awaitTermination(1, TimeUnit.DAYS)) {
                 System.out.println("Все задачи завершены");
             }
             else {
@@ -39,10 +39,10 @@ class Work implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(1500);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Work " + id + " complited");
+        System.out.printf("Work " + ++id + " complited by %s%n", Thread.currentThread().getName());
     }
 }

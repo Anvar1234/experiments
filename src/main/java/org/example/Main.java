@@ -56,6 +56,14 @@ public class Main {
         myObject.staticMethod();  // Выводит: This is a static method
 
 
+        int num1 = 4;
+        int num2 = 5;
+        int num3 = 15;
+        int num4 = 10;
+        int num5 = 5;
+        int result = 12;
 
+        result += num1 * num2 + num3 % num4 / num5;
+        System.out.println(result);
     }
 }
